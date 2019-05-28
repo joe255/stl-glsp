@@ -6,14 +6,13 @@ import org.eclipse.sprotty.SNode;
 
 @Getter
 @Setter
-public final class ItemType extends SNode {
+public final class OutputSlot extends SNode {
 
-    public static final String TYPE = "itemType";
+    public static final String TYPE = "outputSlot";
 
     private String name;
-    private String description;
 
-    public ItemType() {
+    public OutputSlot() {
         setType(TYPE);
     }
 }

@@ -6,14 +6,16 @@ import org.eclipse.sprotty.SNode;
 
 @Getter
 @Setter
-public final class ItemType extends SNode {
+public final class Service extends SNode {
 
-    public static final String TYPE = "itemType";
+    public static final String TYPE = "service";
 
     private String name;
-    private String description;
+    private Integer costs;
+    private Long processingTime;
+    private Float reliability;
 
-    public ItemType() {
+    public Service() {
         setType(TYPE);
     }
 }
