@@ -1,0 +1,6 @@
+### Intellij ###
+.idea/
+.idea_modules/
+*.iws
+*.iml
+out/
