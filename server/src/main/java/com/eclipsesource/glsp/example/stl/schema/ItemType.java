@@ -6,7 +6,7 @@ import org.eclipse.sprotty.SNode;
 
 @Getter
 @Setter
-public class ItemType extends SNode {
+public final class ItemType extends SNode {
 
     public static final String ITEMTYPE = "itemType";
 

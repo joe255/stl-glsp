@@ -5,6 +5,7 @@ import com.eclipsesource.glsp.api.handler.OperationHandler;
 import com.eclipsesource.glsp.server.di.DefaultGLSPModule;
 
 import java.util.Collection;
+
 // TODO
 public class StlGLSPModule extends DefaultGLSPModule {
 
