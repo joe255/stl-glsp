@@ -5,17 +5,17 @@ import com.eclipsesource.glsp.api.handler.OperationHandler;
 import com.eclipsesource.glsp.server.di.DefaultGLSPModule;
 
 import java.util.Collection;
+import java.util.Collections;
 
-// TODO
 public class StlGLSPModule extends DefaultGLSPModule {
 
     @Override
     protected Collection<Class<? extends OperationHandler>> bindOperationHandlers() {
-        return null;
+        return Collections.emptyList();
     }
 
     @Override
     protected Collection<Class<? extends DiagramConfiguration>> bindDiagramConfigurations() {
-        return null;
+        return Collections.emptyList();
     }
 }
