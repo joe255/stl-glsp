@@ -16,6 +16,5 @@ ADD pom.xml pom.xml
 ADD src src
 RUN mvn clean install -Pfatjar
 
-
 EXPOSE 5007
 ENTRYPOINT java -jar target/stl-example-1.2.0-SNAPSHOT-glsp.jar com.eclipsesource.glsp.example.stl.ExampleServerLauncher
