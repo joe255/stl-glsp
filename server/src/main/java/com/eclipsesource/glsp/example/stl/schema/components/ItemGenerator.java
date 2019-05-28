@@ -7,13 +7,13 @@ import org.eclipse.sprotty.SNode;
 
 @Getter
 @Setter
-public final class ItemSeparator extends Component {
+public final class ItemGenerator extends Component {
 
-    public static final String TYPE = "itemSeparator";
+    public static final String TYPE = "itemGenerator";
 
     private String name;
 
-    public ItemSeparator() {
+    public ItemGenerator() {
         setType(TYPE);
     }
 }
