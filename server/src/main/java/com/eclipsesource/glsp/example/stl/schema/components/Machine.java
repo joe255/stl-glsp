@@ -10,8 +10,6 @@ public final class Machine extends Component {
 
     public static final String TYPE = "machine";
 
-    private String name;
-
     public Machine() {
         setType(TYPE);
     }

@@ -10,8 +10,6 @@ public final class Buffer extends Component {
 
     public static final String TYPE = "buffer";
 
-    private String name;
-
     public Buffer() {
         setType(TYPE);
     }

@@ -10,8 +10,6 @@ public final class Turntable extends Component {
 
     public static final String TYPE = "turntable";
 
-    private String name;
-
     public Turntable() {
         setType(TYPE);
     }

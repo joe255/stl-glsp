@@ -10,8 +10,6 @@ public final class ProductStore extends Store {
 
     public static final String TYPE = "productStore";
 
-    private String name;
-
     public ProductStore() {
         setType(TYPE);
     }

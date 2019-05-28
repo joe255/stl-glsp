@@ -10,8 +10,6 @@ public final class Conveyor extends Component {
 
     public static final String TYPE = "conveyor";
 
-    private String name;
-
     public Conveyor() {
         setType(TYPE);
     }

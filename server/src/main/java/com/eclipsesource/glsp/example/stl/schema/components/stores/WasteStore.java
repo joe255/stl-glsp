@@ -10,8 +10,6 @@ public final class WasteStore extends Store {
 
     public static final String TYPE = "wasteStore";
 
-    private String name;
-
     public WasteStore() {
         setType(TYPE);
     }

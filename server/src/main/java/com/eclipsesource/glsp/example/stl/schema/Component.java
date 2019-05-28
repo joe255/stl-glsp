@@ -9,4 +9,5 @@ import org.eclipse.sprotty.SNode;
 public abstract class Component extends SNode {
 
     private Integer costs;
+    private String name;
 }
